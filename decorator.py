@@ -19,6 +19,6 @@ def path_out(path):
 
 
 @path_out('out.txt')
-def foo(x):
-    return x**2
-foo(4)
+def foo(x, y):
+    return x**y
+foo(4, 5)
